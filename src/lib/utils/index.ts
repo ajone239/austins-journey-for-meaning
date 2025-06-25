@@ -1,4 +1,8 @@
-export const fetchMarkdownPosts = async () => {
+import { type PostEntry } from '$lib/types/PostEntry';
+
+type fetchProto = () => Promise<PostEntry[]>;
+
+export const fetchMarkdownPosts: fetchProto = async () => {
     const allPostFiles = import.meta.glob('/src/lib/blog/*.md');
     const iterablePostFiles = Object.entries(allPostFiles);
 
