@@ -5,8 +5,10 @@ import { SiteUrl, SiteTitle, SiteDescription } from '$lib/info';
 export const prerender = true;
 
 export const GET = async () => {
+    const compartPostDates = (a: PostEntry, b: PostEntry) =>
+        Date.parse(b.meta.date ?? "") - Date.parse(a.meta.date ?? "");
     const allPosts = await fetchMarkdownPosts();
-    const sortedPosts = allPosts.sort((a, b) => Date.parse(b.meta.date ?? "") - Date.parse(a.meta.date ?? ""));
+    const sortedPosts = allPosts.sort(compartPostDates);
 
     const body = render(sortedPosts);
     const options = {
@@ -21,15 +23,15 @@ export const GET = async () => {
 
 const render = (posts: PostEntry[]): string =>
     `<?xml version="1.0" encoding="UTF-8" ?>
-    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-        <channel>
-            <title>${SiteTitle}</title>
-            <description>${SiteDescription}</description>
-            <link>${SiteUrl}</link>
-            <atom:link href="${SiteUrl}/rss.xml" rel="self" type="application/rss+xml"/>
-            ${posts.map((post) => render_post(post)).join('')}
-        </channel>
-    </rss>`;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>${SiteTitle}</title>
+        <description>${SiteDescription}</description>
+        <link>${SiteUrl}</link>
+        <atom:link href="${SiteUrl}/rss.xml" rel="self" type="application/rss+xml"/>
+        ${posts.map((post) => render_post(post)).join('')}
+    </channel>
+</rss>`;
 
 const render_post = (post: PostEntry): string => {
     const path = SiteUrl + post.path;
@@ -43,6 +45,5 @@ const render_post = (post: PostEntry): string => {
         <link> ${path} </link>
         <description> ${description} </description>
         <pubDate>${date} </pubDate>
-        </item>`
+    </item>`
 }
-
