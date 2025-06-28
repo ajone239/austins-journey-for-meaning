@@ -1,11 +1,14 @@
 <script lang="ts">
 	import type { PostEntry } from '$lib/types/PostEntry';
-	import Page from '../+page.svelte';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
 	let { posts }: { posts: PostEntry[] } = data;
 </script>
+
+<svelte:head>
+	<title>Austin's Blog</title>
+</svelte:head>
 
 <h1>Blog!</h1>
 
