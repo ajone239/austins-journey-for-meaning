@@ -3,7 +3,7 @@
 This may turn into a blog site but for now it is the skeleton of one.
 
 What it needs:
-- [ ] RSS Feed
+- [x] RSS Feed
 - [ ] Website design
     + [ ] Home page design
     + [ ] Blog post cards

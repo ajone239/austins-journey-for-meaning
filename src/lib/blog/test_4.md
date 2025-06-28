@@ -1,5 +1,4 @@
 ---
-date: '2021-12-14'
 excerpt: this is the fouth post
 ---
 
