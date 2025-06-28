@@ -1,10 +1,9 @@
 ---
-title: Post One
-date: '2021-12-14'
-excerpt: asdfasfasfasd
+title: Post Three
+excerpt: this is the third post
 ---
 
-## Test 1
+## Test 3
 
 **Here's some stuff I use**
 

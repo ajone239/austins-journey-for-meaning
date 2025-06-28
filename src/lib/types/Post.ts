@@ -1,5 +1,6 @@
 export interface Post {
-    title: string;
-    data: string;
+    title: string | undefined;
+    date: string | undefined;
+    excerpt: string | undefined;
     Content: any;
 }
