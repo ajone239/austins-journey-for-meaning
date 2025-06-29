@@ -3,6 +3,9 @@ layout: post
 title: Who is Thaddeus Snaatch?
 categories: dnd fiction
 date: "2024-10-24"
+excerpt: "
+To combat my weak improv skills and my lack of experience, I dive into the back story of my character in a DnD campaign.
+"
 ---
 
 I've recently started my first Dungeons and Dragons campaign.
