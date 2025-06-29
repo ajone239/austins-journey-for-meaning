@@ -1,5 +1,11 @@
+<script>
+	import { SiteTitle } from '$lib/info';
+</script>
+
 <header>
-	<a href="/">Home</a>
+	<h4>
+		<a href="/">{SiteTitle}</a>
+	</h4>
 
 	<nav>
 		<ul>
