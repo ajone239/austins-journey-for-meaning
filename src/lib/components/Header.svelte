@@ -3,9 +3,9 @@
 </script>
 
 <header>
-	<h4>
+	<h3>
 		<a href="/">{SiteTitle}</a>
-	</h4>
+	</h3>
 
 	<nav>
 		<ul>
@@ -13,10 +13,10 @@
 				<a href="/blog">Blog</a>
 			</li>
 			<li>
-				<a href="/about">About</a>
+				<a href="/arcade">Arcade</a>
 			</li>
 			<li>
-				<a href="/contact">Contact</a>
+				<a href="/about">About</a>
 			</li>
 		</ul>
 	</nav>
@@ -24,11 +24,12 @@
 
 <style>
 	header {
-		padding: 1rem;
-		background: lightskyblue;
+		padding: 0.5rem;
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
 		justify-content: space-between;
+		border-bottom: 2px solid lightgrey;
 	}
 
 	ul {
@@ -37,9 +38,7 @@
 		display: flex;
 		gap: 1rem;
 	}
-
 	a {
-		text-decoration: none;
 		color: inherit;
 	}
 </style>

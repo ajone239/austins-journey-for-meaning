@@ -5,20 +5,28 @@
 <footer>
 	<span>
 		<p>{SiteTitle}</p>
-		<p><em>by: Austin Jones</em></p>
+		<p class="chill">
+			<a href="mailto:ajones53.aj@gmail.com">ajones53.aj@gmail.com</a>
+		</p>
 	</span>
 
 	<span>
-		<p>{SiteDescription}</p>
+		<p>
+			<a href="https://github.com/ajone239">My Github</a>
+		</p>
+		<p class="chill">{SiteDescription}</p>
 	</span>
 </footer>
 
 <style>
 	footer {
 		padding: 1rem;
-		background: lightskyblue;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		border-top: 2px dashed lightgrey;
+	}
+	p.chill {
+		opacity: 0.5;
 	}
 </style>
