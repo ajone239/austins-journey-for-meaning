@@ -1,9 +1,10 @@
 <script lang="ts">
+	import BlogPostCard from '$lib/components/BlogPostCard.svelte';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
 
-	let { title, date, excerpt, Content } = data;
+	let { title, date, path, excerpt, Content } = data;
 </script>
 
 <svelte:head>
@@ -12,21 +13,18 @@
 </svelte:head>
 
 <article>
-	<p class="date">Published: {date}</p>
-	<h1>{title}</h1>
-
-	{#if excerpt}
-		<p>
-			<b>TL;DR</b>:
-			{excerpt}
-		</p>
-	{/if}
+	<BlogPostCard
+		entry={{
+			path,
+			meta: {
+				title,
+				date,
+				excerpt,
+				Content
+			}
+		}}
+		hover={false}
+	/>
 
 	<Content />
 </article>
-
-<style>
-	.date {
-		opacity: 0.5;
-	}
-</style>

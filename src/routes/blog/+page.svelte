@@ -1,4 +1,5 @@
 <script lang="ts">
+	import BlogPostCard from '$lib/components/BlogPostCard.svelte';
 	import type { PostEntry } from '$lib/types/PostEntry';
 	import type { PageProps } from './$types';
 
@@ -13,23 +14,15 @@
 <h1>Blog!</h1>
 
 <ul>
-	{#each posts as post (post.path)}
+	{#each posts as entry (entry.path)}
 		<li>
-			<h2>
-				<a href={post.path}>
-					{post.meta.title ? post.meta.title : post.path}
-				</a>
-			</h2>
-			{#if post.meta.date}
-				<p>
-					<b>
-						Published: {post.meta.date}
-					</b>
-				</p>
-			{/if}
-			{#if post.meta.excerpt}
-				<p>{post.meta.excerpt}</p>
-			{/if}
+			<BlogPostCard {entry} />
 		</li>
 	{/each}
 </ul>
+
+<style>
+	ul {
+		list-style: none;
+	}
+</style>
