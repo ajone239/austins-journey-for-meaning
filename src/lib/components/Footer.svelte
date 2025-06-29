@@ -29,4 +29,7 @@
 	p.chill {
 		opacity: 0.5;
 	}
+	a {
+		color: inherit;
+	}
 </style>
