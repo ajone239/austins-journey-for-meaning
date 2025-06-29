@@ -8,7 +8,9 @@
 		<p><em>by: Austin Jones</em></p>
 	</span>
 
-	<p>{SiteDescription}</p>
+	<span>
+		<p>{SiteDescription}</p>
+	</span>
 </footer>
 
 <style>

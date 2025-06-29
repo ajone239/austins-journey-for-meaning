@@ -12,9 +12,19 @@
 		<Header />
 
 		<main>
-			{@render children()}
+			<div class="main-content-wrapper">
+				{@render children()}
+			</div>
 		</main>
 
 		<Footer />
 	</div>
 </body>
+
+<style lang="scss">
+	.main-content-wrapper {
+		max-width: 40rem;
+		margin: 0 auto;
+		padding: 1rem;
+	}
+</style>
