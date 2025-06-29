@@ -8,7 +8,7 @@ export const GET: RequestHandler = async () => {
     const all_posts = await fetchMarkdownPosts();
 
     const sorted_posts = all_posts.sort((a: PostEntry, b: PostEntry) => {
-        return Date(a.meta.date) - Date(b.meta.date)
+        return Date.parse(b.meta.date) - Date.parse(a.meta.date)
     });
 
     return json(sorted_posts);
