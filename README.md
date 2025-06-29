@@ -6,10 +6,10 @@ What it needs:
 - [x] RSS Feed
 - [ ] Website design
     + [ ] Home page design
-    + [ ] Blog post cards
+    + [x] Blog post cards
     + [ ] Blogs posts on the home page
     + [ ] Fun error page
-- [ ] Content lol
+- [x] Content lol
 - [ ] Resume Section
 - [ ] github action build
 - [ ] hosting in some way

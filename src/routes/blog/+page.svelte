@@ -11,7 +11,7 @@
 	<title>Austin's Blog</title>
 </svelte:head>
 
-<h1>Blog!</h1>
+<h1>Posts</h1>
 
 <ul>
 	{#each posts as entry (entry.path)}
