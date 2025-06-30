@@ -4,12 +4,13 @@ This may turn into a blog site but for now it is the skeleton of one.
 
 What it needs:
 - [x] RSS Feed
-- [ ] Website design
-    + [ ] Home page design
+- [x] Website design
+    + [x] Home page design
     + [x] Blog post cards
-    + [ ] Blogs posts on the home page
-    + [ ] Fun error page
+    + [x] Blogs posts on the home page
+    + [x] Fun error page
 - [x] Content lol
+- [ ] excerpts
 - [ ] Resume Section
 - [ ] github action build
 - [ ] hosting in some way

@@ -32,6 +32,11 @@
 		border-bottom: 2px solid lightgrey;
 	}
 
+	h3,
+	nav {
+		margin: 10px;
+	}
+
 	ul {
 		margin: 0;
 		list-style-type: none;
