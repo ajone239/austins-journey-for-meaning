@@ -3,6 +3,7 @@ title: To Outlive or to seek life
 layout: page
 date: "2025-06-02"
 author: Austin Jones
+excerpt: Fun how etymology can bake in philosophies of individualism versus collectivism.
 ---
 
 A disclaimer: This post is about etymology.

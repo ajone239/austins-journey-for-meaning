@@ -3,6 +3,12 @@ title: AI Memes Don't Count
 layout: page
 date: "2025-06-03"
 author: Austin Jones
+excerpt: "
+If AI can make good enough art then why should we continue making art?
+In a world where anything can be generated, what is the worth of doing something.
+Well, it's the worth you put in it by choosing it.
+So, choose something you care about and do it.
+"
 ---
 
 <!-- intro about the poem -->

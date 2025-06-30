@@ -4,6 +4,7 @@ author: Austin Jones
 layout: page
 date: "2024-11-03"
 categories: philosophy
+excerpt: A digestions of a conversation between a colleague and I about Maslow's Hierachy of needs and whether it is too restrictive in defining how we chase our needs.
 ---
 
 In a [recent blog post](/blog/2024-11-03-what-it-means-to-be-a-good-cat.md), I made the statement that an issue with Maslow's Hierarchy of Needs is that it artificially gates levels from one another.

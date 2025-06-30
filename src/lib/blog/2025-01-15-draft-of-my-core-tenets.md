@@ -3,6 +3,11 @@ layout: page
 title: A tentative list of core tenets
 date: "2025-01-15"
 author: Austin Jones
+excerpt: "
+This is a list of the things that I believe in this world.
+Feel free to hold me to them.
+Basically, be kind, pay attention, and call your shot.
+"
 ---
 
 If you've had a long conversation with me, you've no doubt heard me say, "I need to write them down, but I have a few core tenets and _this_ is one of them...".

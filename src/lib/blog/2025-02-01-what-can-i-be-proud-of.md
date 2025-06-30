@@ -4,6 +4,12 @@ title: What can I be proud of?
 author: Austin Jones
 date: "2025-02-01"
 categories: philosophy personal
+excerpt: "
+College was a big undertaking, but it wasn't really hard.
+Well it was hard but only in a way that challenged skills I had.
+Things that I look back on and feel proud of have forced me to gain skills or deepen ones I had.
+In the end, things that make us proud to do them challenge us to grow.
+"
 ---
 
 My brother-in-law recently asked me if I was proud to have graduated college -- his exact words were "do you feel accomplished".

@@ -4,6 +4,11 @@ author: Austin Jones
 layout: page
 date: "2024-11-03"
 categories: philosophy life
+excerpt: "
+How can we help our cats live more full lives?
+How does a cat living by their nature inform what a full life is?
+How does this inform how we can live fuller lives?
+"
 ---
 
 <!-- intro -->

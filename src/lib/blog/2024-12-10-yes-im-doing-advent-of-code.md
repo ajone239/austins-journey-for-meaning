@@ -3,6 +3,11 @@ layout: post
 title: Yes I am doing Advent of Code
 date: "2024-12-10"
 categories: code
+excerpt: "
+It may seem of little practical value to spend valuable work time on a frivolous challenge.
+However, doing things you like for the reason that they are fun is worth it enough.
+More of this in my answer to my colleague's cynicism over participation in a Christmas coding challenge.
+"
 ---
 
 A (negligibly older) friend of mine who is a dev and blogger [publicly answered](https://www.earthli.com/news/view_article.php?id=5279) my question, "Hey, are you doing Advent of Code this year?"

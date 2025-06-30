@@ -3,7 +3,7 @@ title: MVVM understandings
 author: Austin Jones
 layout: post
 date: "2025-02-15"
-excerpt_separator: <!--more-->
+excerpt: "Some notes on my breakthroughs in undersanding of the MVVM architecture."
 ---
 
 

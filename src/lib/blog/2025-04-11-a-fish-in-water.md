@@ -3,6 +3,7 @@ layout: post
 title: A Fish in Water
 date: "2025-04-11"
 categories: philosophy social
+excerpt: A dissection of social skills and strategies of a new higher-up at my job.
 ---
 
 At work, we recently had a head swap for the director of the building.

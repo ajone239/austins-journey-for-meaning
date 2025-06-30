@@ -4,6 +4,14 @@ author: Austin Jones
 layout: page
 date: "2025-03-25"
 categories: philosophy
+excerpt: "
+Any cup of water taken from the river isn't the river.
+Any stone, fish, or bend taken from the river won't disturb its being.
+The river is the flux of life through this slice of the world you see. 
+I'm water, not a river.
+As a river must flow: water must flow on.
+So change is not only healthy but necessary. 
+"
 ---
 
 When I was about 20 or so, I decided to get into reading.

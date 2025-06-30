@@ -2,9 +2,9 @@
 layout: post
 title: People write different
 date: '2025-06-28'
+excerpt: Some people will take long to wrestle with ideas than others give them the space to ingest and organize.
 ---
 
-**TL;DR:** Some people will take long to wrestle with ideas than others give them the space to ingest and organize.
 
 I was at a workshop recently; it centered around purpose and conveying it to others.
 During the workshop, we were given a task of self reflection.

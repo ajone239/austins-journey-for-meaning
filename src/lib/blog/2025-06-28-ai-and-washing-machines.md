@@ -3,6 +3,14 @@ layout: post
 title: Of AI and Washing Machines
 author: Austin Jones
 date: '2025-06-28'
+excerpt: "
+Washing machines do alot of work for us humans.
+Recently, so does AI.
+The work saved by both these things differs greatly.
+The important difference is how the work saved relates to our purpose as humans.
+Washing machines free you from the toil of labor.
+AI frees you from the toil of thought and process of making.
+"
 ---
 
 In 2024, I went on a work trip to Switzerland -- more specifically a city called Uster.

@@ -13,7 +13,7 @@ What it needs:
 - [ ] move over book reviews
 - [ ] move over post for advent of code
 - [ ] pagination
-- [ ] excerpts
+- [x] excerpts
 - [ ] fonts
 - [ ] Resume Section
 - [ ] github action build
