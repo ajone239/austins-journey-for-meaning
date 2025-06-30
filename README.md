@@ -10,6 +10,7 @@ What it needs:
     + [x] Blogs posts on the home page
     + [x] Fun error page
 - [x] Content lol
+- [ ] pagination
 - [ ] excerpts
 - [ ] Resume Section
 - [ ] github action build
