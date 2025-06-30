@@ -6,26 +6,26 @@
 </script>
 
 <div class="container">
-	<div class={['card', { hover }]}>
-		{#if meta.date}
-			<p class="date">
-				Published: {meta.date}
-			</p>
-		{/if}
+	<a href={path}>
+		<div class={['card', { hover }]}>
+			{#if meta.date}
+				<p class="date">
+					Published: {meta.date}
+				</p>
+			{/if}
 
-		<h2>
-			<a href={path}>
+			<h2>
 				{title}
-			</a>
-		</h2>
+			</h2>
 
-		{#if meta.excerpt}
-			<p>
-				<b><em>TL;DR:</em></b>
-				{meta.excerpt}
-			</p>
-		{/if}
-	</div>
+			{#if meta.excerpt}
+				<p>
+					<b><em>TL;DR:</em></b>
+					{meta.excerpt}
+				</p>
+			{/if}
+		</div>
+	</a>
 </div>
 
 <style lang="scss">
@@ -43,5 +43,8 @@
 	}
 	.date {
 		opacity: 0.5;
+	}
+	a {
+		color: inherit;
 	}
 </style>

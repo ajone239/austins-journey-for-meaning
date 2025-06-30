@@ -44,3 +44,22 @@ a {
     text-decoration: underline;
   }
 }
+
+blockquote {
+  position: relative;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  background-color: #f1f1f1;
+  border-left: 4px solid #999;
+  font-style: italic;
+  color: #333;
+
+  &::before {
+    content: "“";
+    font-size: 3rem;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    color: #ccc;
+  }
+}

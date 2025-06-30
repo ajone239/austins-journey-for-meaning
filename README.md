@@ -10,8 +10,11 @@ What it needs:
     + [x] Blogs posts on the home page
     + [x] Fun error page
 - [x] Content lol
+- [ ] move over book reviews
+- [ ] move over post for advent of code
 - [ ] pagination
 - [ ] excerpts
+- [ ] fonts
 - [ ] Resume Section
 - [ ] github action build
 - [ ] hosting in some way
