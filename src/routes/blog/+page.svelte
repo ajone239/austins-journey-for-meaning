@@ -23,6 +23,10 @@
 
 <style>
 	ul {
-		list-style: none;
+		display: contents;
+	}
+
+	li {
+		list-style-type: none;
 	}
 </style>

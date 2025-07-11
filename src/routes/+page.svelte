@@ -15,8 +15,11 @@
 <h1>Welcome to the Journey</h1>
 
 <p>
-	Be it <a href="/arcade">games</a>, <a href="/blog">writings</a>, or
-	<a href="/about">personal info</a> this is where I put my digital goods. I hope you enjoy it.
+	Be it
+	<a href="/arcade">games</a>,
+	<a href="/blog">writings</a>, or
+	<a href="/about">personal info</a>
+	this is where I put my digital goods. I hope you enjoy it.
 </p>
 
 <h2>Recent Posts from my <a href="/blog">Blog</a></h2>
@@ -31,6 +34,10 @@
 
 <style>
 	ul {
-		list-style: none;
+		display: contents;
+	}
+
+	li {
+		list-style-type: none;
 	}
 </style>
